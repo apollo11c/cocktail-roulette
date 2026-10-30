@@ -1,0 +1,87 @@
+[    
+    {
+    "id": "white-lotus",
+    "nom": "White Lotus",
+    "type": "cocktail",
+    "alcools": ["vodka", "prosecco", "liqueur de litchi", "liqueur de fleur de sureau"],
+    "ingredients": [
+        { "nom": "vodka", "quantite": 2, "unite": "cl" },
+        { "nom": "prosecco", "quantite": 2, "unite": "cl" },
+        { "nom": "liqueur de litchi", "quantite": 2, "unite": "cl" },
+        { "nom": "liqueur de fleur de sureau", "quantite": 2, "unite": "cl" },
+        { "nom": "jus de litchi", "quantite": 2, "unite": "cl" },
+        { "nom": "jus de poire", "quantite": 2, "unite": "cl" },
+        { "nom": "jus de citron", "quantite": 2, "unite": "cl" },
+        { "nom": "eau pétillante", "quantite": 2, "unite": "cl" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser tous les ingrédients dans un shaker avec des glaçons, secouer, puis filtrer dans un verre à cocktail. Ajouter l'eau pétillante et mélanger délicatement.",
+    "note": "à tester, quantités à mettre au point"
+    },
+
+    {
+    "id": "mala-leche",
+    "nom": "Mala Leche",
+    "type": "cocktail",
+    "alcools": ["rhum ambré", "amaretto"],
+    "ingredients": [
+        { "nom": "rhum ambré", "quantite": 4, "unite": "cl" },
+        { "nom": "amaretto", "quantite": 2, "unite": "cl" },
+        { "nom": "Dulce de Leche", "quantite": 6, "unite": "cl" },
+        { "nom": "lait d'amande grillée", "quantite": 2, "unite": "cl" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser tous les ingrédients dans un shaker avec des glaçons, secouer, puis filtrer dans un verre à cocktail.",
+    "note": "à tester, quantités à mettre au point"
+    },
+
+    {
+    "id": "peach-bourbon-mule",
+    "nom": "Peach Bourbon Mule",
+    "type": "cocktail",
+    "alcools": ["bourbon"],
+    "ingredients": [
+        { "nom": "bourbon", "quantite": 4, "unite": "cl" },
+        { "nom": "purée de pêche", "quantite": 6, "unite": "cl" },
+        { "nom": "sirop d'érable", "quantite": 2, "unite": "cl" },
+        { "nom": "jus de citron vert", "quantite": 2, "unite": "cl" },
+        { "nom": "ginger beer", "quantite": 8, "unite": "cl" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser le bourbon, la purée de pêche, le sirop d'érable et le jus de citron vert dans un shaker avec des glaçons, secouer, puis filtrer dans un verre rempli de glaçons. Compléter avec la ginger beer et mélanger délicatement.",
+    "note": "à tester, quantités à mettre au point"
+    },
+
+    {
+    "id": "amaretto-sour",
+    "nom": "Amaretto Sour",
+    "type": "cocktail",
+    "alcools": ["amaretto"],
+    "ingredients": [
+        { "nom": "amaretto", "quantite": 4, "unite": "cl" },
+        { "nom": "jus de citron", "quantite": 3, "unite": "cl" },
+        { "nom": "sirop de sucre", "quantite": 1, "unite": "cl" },
+        { "nom": "eau", "quantite": 1, "unite": "cl" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser l'amaretto, le jus de citron, le sirop de sucre et l'eau dans un shaker avec des glaçons, secouer, puis filtrer dans un verre rempli de glaçons.",
+    "note": "à tester, quantités à mettre au point"
+    },
+
+    {
+    "id": "hugo-spritz",
+    "nom": "Hugo Spritz",
+    "type": "cocktail",
+    "alcools": ["prosecco", "liqueur de fleur de sureau"],
+    "ingredients": [
+        { "nom": "prosecco", "quantite": 6, "unite": "cl" },
+        { "nom": "liqueur de fleur de sureau", "quantite": 2, "unite": "cl" },
+        { "nom": "eau pétillante", "quantite": 2, "unite": "cl" },
+        { "nom": "menthe", "quantite": 1, "unite": "brin" },
+        { "nom": "citron vert", "quantite": 1, "unite": "tranche" }
+    ],
+    "materiel": ["verre à vin"],
+    "instructions": "Verser le prosecco et la liqueur de fleur de sureau dans un verre à vin rempli de glaçons, ajouter l'eau pétillante, puis décorer  avec la menthe et la tranche de citron vert.",
+    "note": "à tester, quantités à mettre au point"
+    }
+]

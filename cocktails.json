@@ -1,0 +1,126 @@
+[
+    {
+    "id": "long-island",
+    "nom": "Long Island",
+    "type": "cocktail",
+    "alcools": ["vodka", "gin", "rhum blanc", "tequila", "triple sec"],
+    "ingredients": [
+        { "nom": "vodka", "quantite": 2, "unite": "cl" },
+        { "nom": "gin", "quantite": 2, "unite": "cl" },
+        { "nom": "rhum blanc", "quantite": 2, "unite": "cl" },
+        { "nom": "tequila", "quantite": 2, "unite": "cl" },
+        { "nom": "triple sec", "quantite": 2, "unite": "cl" },
+        { "nom": "jus de citron jaune", "quantite": 2, "unite": "cl" },
+        { "nom": "coca", "quantite": "à l'oeil", "unite": "na" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser les alcools et le jus de citron dans un shaker, secouer, verser dans un verre avec des glaçons et allonger au coca.",
+    "note": "Ajouter une rondelle de citron pour la déco."
+    },
+
+    {
+    "id": "mocktail-concombre",
+    "nom": "Mocktail au concombre",
+    "type": "mocktail",
+    "alcools": [],
+    "ingredients": [
+        { "nom": "concombre", "quantite": 0.25, "unite": "pièce" },
+        { "nom": "jus de citron vert", "quantite": 15, "unite": "g" },
+        { "nom": "menthe", "quantite": 1, "unite": "brin" },
+        { "nom": "sucre", "quantite": 12.5, "unite": "g" },
+        { "nom": "sel", "quantite": 1, "unite": "pincée" },
+        { "nom": "eau", "quantite": 100, "unite": "g" }
+    ],
+    "materiel": ["mixeur"],
+    "instructions": "Mixer le concombre, le jus de citron, la menthe, le sucre, le sel. Ajouter l'eau puis mixer une nouvelle fois. Verser dans un verre avec des glaçons.",
+    "note": "Décorer avec une rondelle de citron et des feuilles de menthe."
+    },
+
+    {
+    "id": "express-martini",
+    "nom": "Express Martini",
+    "type": "cocktail",
+    "alcools": ["vodka", "liqueur de café"],
+    "ingredients": [
+        { "nom": "vodka", "quantite": 4, "unite": "cl" },
+        { "nom": "liqueur de café", "quantite": 2, "unite": "cl" },
+        { "nom": "expresso", "quantite": 1, "unite": "na" },
+        { "nom": "sirop de vanille", "quantite": 1, "unite": "cl" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser la vodka, la liqueur de café, l'expresso chaud et le sirop de vanille dans un shaker avec des glaçons, secouer, filter puis verser dans un verre à cocktail.",
+    "note": "na"
+    },
+
+    {
+    "id": "gin-concombre-basil",
+    "nom": "Gin Concombre Basil",
+    "type": "cocktail",
+    "alcools": ["gin"],
+    "ingredients": [
+        { "nom": "gin", "quantite": 4, "unite": "cl" },
+        { "nom": "concombre", "quantite": "quelques tranches", "unite": "na" },
+        { "nom": "basilic", "quantite": 1, "unite": "brin" }, 
+        { "nom": "sirop de sucre", "quantite": 1, "unite": "cl" },
+        { "nom": "eau pétillante", "quantite": "à l'oeil", "unite": "na" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Piler le concombre et le basilic dans un verre, ajouter le sirop de sucre, le gin, shaker le tout, filtrer puis compléter avec de l'au pétillante.",
+    "note": "Décorer avec une rondelle de concombre ou une feuille de basilic."
+    },
+
+    {
+    "id": "passion-hibiscus",
+    "nom": "Passion Hibiscus",
+    "type": "cocktail",
+    "alcools": ["rhum"],
+    "ingredients": [
+        { "nom": "rhum", "quantite": 3, "unite": "cl" },
+        { "nom": "jus de citron vert", "quantite": 1.5, "unite": "cl" },
+        { "nom": "jus de fruit de la passion", "quantite": 3, "unite": "cl" },
+        { "nom": "sirop d'hibiscus'", "quantite": 1.5, "unite": "cl" },
+        { "nom": "infusion à l'hibiscus", "quantite": 3, "unite": "cl" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Verser tous les ingrédients dans un shaker avec des glaçons, secouer, puis filtrer dans un verre à cocktail.",
+    "note": "Décorer avec une tranche de fruit de la passion."
+    },
+
+    {
+    "id": "basil-smash",
+    "nom": "Basil Smash",
+    "type": "cocktail",
+    "alcools": ["gin"],
+    "ingredients": [
+        { "nom": "gin", "quantite": 5, "unite": "cl" },
+        { "nom": "jus de citron vert", "quantite": 2.5, "unite": "cl" },
+        { "nom": "sirop de sucre", "quantite": 2.5, "unite": "cl" },
+        { "nom": "basilic", "quantite": "plein de feuilles", "unite": "na" }
+    ],
+    "materiel": ["shaker"],
+    "instructions": "Shaker énergiquement tous les ingrédients avec des glaçons, puis filtrer dans un verre rempli de glaçons.",
+    "note": "Décorer avec une feuille de basilic."
+    },
+
+    {
+    "id": "cidre-chaud-epices",
+    "nom": "Cidre chaud aux épices",
+    "type": "cocktail",
+    "alcools": ["cidre"],
+    "ingredients": [
+        { "nom": "cidre doux", "quantite": 150, "unite": "cl" },
+        { "nom": "orange", "quantite": 1, "unite": "pièce" },
+        { "nom": "citron", "quantite": 1, "unite": "pièce" },
+        { "nom": "clous de girofle", "quantite": 4, "unite": "pièces" },
+        { "nom": "sucre roux", "quantite": 4, "unite": "cuillères à soupe" },
+        { "nom": "bâtons de cannelle", "quantite": 2, "unite": "pièces" },
+        { "nom": "étoiles de badiane", "quantite": 2, "unite": "pièces" },
+        { "nom": "mélange 4 épices", "quantite": 1, "unite": "cuillère à café" },
+        { "nom": "miel", "quantite": "optionnel", "unite": "à l'oeil" }
+    ],
+    "materiel": ["casserole"],
+    "instructions": "Faire chauffer le cidre dans une casserole. Râper les écorces d'orange et de citron, couper l'orange en tranches. Ajouter les épices, le sucre, les tranches d'orange, quelques gouttes de citron et les lamelles de zeste au cidre frémissant. Couvrir et faire infuser 10 min à petite ébullition, puis filtrer. Ajouter un peu de miel dans chaque tasse au moment de déguster.",
+    "note": "Décorer avec les rondelles d'orange égouttées."
+    }
+
+]
