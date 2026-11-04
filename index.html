@@ -6,8 +6,94 @@
   <title>Cocktail Roulette</title>
 </head>
 <body>
-  <h1>🍸 Cocktail Roulette</h1>
-  <p>Trouve ton cocktail sur-mesure !</p>
+
+  <!-- 1. En-tête et Navigation -->
+  <header>
+    <div class="logo">COCKTAIL ROULETTE</div>
+    <nav>
+      <a href="#" class="active">Roulette</a>
+      <a href="#">Catalogue</a>
+      <a href="#" class="btn-ajouter">+ Ajouter</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. Bloc de Filtres -->
+    <section id="section-filtres">
+      <h2>Filtres</h2>
+      
+      <!-- 1. Filtre Type -->
+      <div class="filtre-groupe">
+        <label for="select-type">Type :</label>
+        <select id="select-type">
+          <option value="peu_importe" selected>Peu importe</option>
+          <option value="cocktail">Cocktail</option>
+          <option value="mocktail">Mocktail</option>
+        </select>
+      </div>
+
+      <!-- 2. Filtre Alcools -->
+      <div class="filtre-groupe dropdown-custom" id="group-alcool">
+        <label>Alcool(s) :</label>
+        <button type="button" class="dropdown-btn" id="btn-dropdown-alcool">
+          <span>Peu importe</span>
+          <span class="fleche">▼</span>
+        </button>
+        <div class="dropdown-content" id="dropdown-alcool-content">
+          <input type="text" class="dropdown-search" placeholder="Rechercher un alcool..." id="search-alcool">
+          <!-- Rempli dynamiquement par JavaScript -->
+          <div class="dropdown-options" id="options-alcool"></div>
+        </div>
+      </div>
+
+      <!-- 3. Filtre Ingrédients -->
+      <div class="filtre-groupe dropdown-custom">
+        <label>Ingrédients souhaités :</label>
+        <button type="button" class="dropdown-btn" id="btn-dropdown-ingredients">
+          <span>Peu importe</span>
+          <span class="fleche">▼</span>
+        </button>
+        <div class="dropdown-content" id="dropdown-ingredients-content">
+          <input type="text" class="dropdown-search" placeholder="Rechercher un ingrédient..." id="search-ingredients">
+          <!-- Rempli dynamiquement par JavaScript -->
+          <div class="dropdown-options" id="options-ingredients"></div>
+        </div>
+      </div>
+
+      <!-- 4. Filtre Préférences / Exclusions -->
+      <div class="filtre-groupe dropdown-custom">
+        <label>Ingrédients à exclure :</label>
+        <button type="button" class="dropdown-btn" id="btn-dropdown-exclure">
+          <span>Peu importe</span>
+          <span class="fleche">▼</span>
+        </button>
+        <div class="dropdown-content" id="dropdown-exclure-content">
+          <input type="text" class="dropdown-search" placeholder="Rechercher un ingrédient à exclure..." id="search-exclure">
+          <!-- Rempli dynamiquement par JavaScript -->
+          <div class="dropdown-options" id="options-exclure"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Zone Centrale & Boule Disco -->
+    <section id="section-roulette">
+      <p class="accroche">
+        En manque d'inspiration ?<br>
+        Laissez le hasard choisir votre prochain cocktail.<br>
+        Ajustez vos filtres et lancez la roulette !
+      </p>
+
+      <div id="boule-disco" role="button">
+        <!-- La boule disco sera affichée ici via CSS/images -->
+        <span>🪩 LANCER !</span>
+      </div>
+    </section>
+
+    <!-- 4. Zone d'affichage du résultat -->
+    <section id="section-resultat">
+      <!-- Le cocktail tiré au sort s'affichera ici dynamiquement grâce à JavaScript -->
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
